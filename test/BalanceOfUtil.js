@@ -1,5 +1,5 @@
 const { loadFixture } = require("@nomicfoundation/hardhat-toolbox/network-helpers");
-const { expect } = require("chai");
+const { assert, expect } = require("chai");
 require("dotenv").config();
 const hre = require("hardhat");
 
@@ -19,7 +19,7 @@ describe("BalanceOfUtil", function () {
         balanceOfUtil = balanceOfUtil.connect(wallet);
     })
 
-    it("test", async () => {
+    it("Retrieve balances for multiple ERC20 tokens", async () => {
         const blockNumber = await provider.getBlockNumber();
         console.log(blockNumber);
         const contractOwner = await balanceOfUtil.owner();
@@ -41,5 +41,6 @@ describe("BalanceOfUtil", function () {
             res.push(val.toString());
         })
         console.log(res);
+        assert.equal(res.length, 4, "Should be an array with four items");
     })
 })

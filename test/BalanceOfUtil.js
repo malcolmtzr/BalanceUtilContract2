@@ -20,10 +20,11 @@ describe("BalanceOfUtil", function () {
     })
 
     it("Retrieve balances for multiple ERC20 tokens", async () => {
-        const blockNumber = await provider.getBlockNumber();
-        console.log(blockNumber);
-        const contractOwner = await balanceOfUtil.owner();
-        console.log(contractOwner);
+        // const blockNumber = await provider.getBlockNumber();
+        // console.log(blockNumber);
+        // const contractOwner = await balanceOfUtil.owner();
+        // console.log(contractOwner);
+
         //PX, USDT, PURSE, WETH
         const tokens = [
             "0xd567B3d7B8FE3C79a1AD8dA978812cfC4Fa05e75",
@@ -31,6 +32,7 @@ describe("BalanceOfUtil", function () {
             "0x5FD55A1B9FC24967C4dB09C513C3BA0DFa7FF687",
             "0x0CE35b0D42608Ca54Eb7bcc8044f7087C18E7717"
         ]
+        console.log(typeof (wallet.address))
         const resRaw = await balanceOfUtil.getBalances(
             tokens,
             wallet.address

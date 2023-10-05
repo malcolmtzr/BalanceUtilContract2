@@ -14,7 +14,7 @@ describe("BalanceOfUtil", function () {
         balanceOfUtil = await ethers.getContractAt(
             "BalanceOfUtil",
             "0x86C9d8220A3FA0F258bd98A4899DB9c5310dFA03",
-            wallet
+            wallet //this can be a provider if reading only
         );
         balanceOfUtil = balanceOfUtil.connect(wallet);
     })

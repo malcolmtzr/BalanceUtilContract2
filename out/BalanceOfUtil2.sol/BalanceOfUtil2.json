@@ -1,0 +1,314 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "userAddress",
+          "type": "address"
+        }
+      ],
+      "name": "getNativeBalance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5060bb8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063efd8be6214602d575b600080fd5b604560383660046057565b6001600160a01b03163190565b60405190815260200160405180910390f35b600060208284031215606857600080fd5b81356001600160a01b0381168114607e57600080fd5b939250505056fea264697066735822122067360d044bf2c17bf019f89ecf753aa663ed8647ccbb8fef1a701c8e209741a264736f6c63430008150033",
+    "sourceMap": "112:153:1:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063efd8be6214602d575b600080fd5b604560383660046057565b6001600160a01b03163190565b60405190815260200160405180910390f35b600060208284031215606857600080fd5b81356001600160a01b0381168114607e57600080fd5b939250505056fea264697066735822122067360d044bf2c17bf019f89ecf753aa663ed8647ccbb8fef1a701c8e209741a264736f6c63430008150033",
+    "sourceMap": "112:153:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;143:120;;;;;;:::i;:::-;-1:-1:-1;;;;;237:19:1;;;143:120;;;;451:25:4;;;439:2;424:18;143:120:1;;;;;;;14:286:4;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;168:23;;-1:-1:-1;;;;;220:31:4;;210:42;;200:70;;266:1;263;256:12;200:70;289:5;14:286;-1:-1:-1;;;14:286:4:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getNativeBalance(address)": "efd8be62"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"userAddress\",\"type\":\"address\"}],\"name\":\"getNativeBalance\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/BalanceOfUtil2.sol\":\"BalanceOfUtil2\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":eth-gas-reporter/=node_modules/eth-gas-reporter/\",\":hardhat/=node_modules/hardhat/\"]},\"sources\":{\"contracts/BalanceOfUtil2.sol\":{\"keccak256\":\"0xe3425cd0890291ac3d16078dbf83137ee85b17a41380c598000777480266d84a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://e7e425c2510a3c12a4af967560b8b3774d0a2603ab4af622a3dfc2d917740134\",\"dweb:/ipfs/QmYMRbtF4avUzFjgiHAxStVvh3LRzT3GshD2u2qjL2M3sD\"]},\"node_modules/@openzeppelin/contracts/access/Ownable.sol\":{\"keccak256\":\"0xba43b97fba0d32eb4254f6a5a297b39a19a247082a02d6e69349e071e2946218\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fc980984badf3984b6303b377711220e067722bbd6a135b24669ff5069ef9f32\",\"dweb:/ipfs/QmPHXMSXj99XjSVM21YsY6aNtLLjLVXDbyN76J5HQYvvrz\"]},\"node_modules/@openzeppelin/contracts/utils/Context.sol\":{\"keccak256\":\"0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92\",\"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.21+commit.d9974bed"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "userAddress",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getNativeBalance",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+        "hardhat/=node_modules/hardhat/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/BalanceOfUtil2.sol": "BalanceOfUtil2"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/BalanceOfUtil2.sol": {
+        "keccak256": "0xe3425cd0890291ac3d16078dbf83137ee85b17a41380c598000777480266d84a",
+        "urls": [
+          "bzz-raw://e7e425c2510a3c12a4af967560b8b3774d0a2603ab4af622a3dfc2d917740134",
+          "dweb:/ipfs/QmYMRbtF4avUzFjgiHAxStVvh3LRzT3GshD2u2qjL2M3sD"
+        ],
+        "license": "MIT"
+      },
+      "node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+        "keccak256": "0xba43b97fba0d32eb4254f6a5a297b39a19a247082a02d6e69349e071e2946218",
+        "urls": [
+          "bzz-raw://fc980984badf3984b6303b377711220e067722bbd6a135b24669ff5069ef9f32",
+          "dweb:/ipfs/QmPHXMSXj99XjSVM21YsY6aNtLLjLVXDbyN76J5HQYvvrz"
+        ],
+        "license": "MIT"
+      },
+      "node_modules/@openzeppelin/contracts/utils/Context.sol": {
+        "keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
+        "urls": [
+          "bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
+          "dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/BalanceOfUtil2.sol",
+    "id": 189,
+    "exportedSymbols": {
+      "BalanceOfUtil2": [
+        188
+      ],
+      "Context": [
+        323
+      ],
+      "Ownable": [
+        301
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:233:1",
+    "nodes": [
+      {
+        "id": 175,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:1",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ]
+      },
+      {
+        "id": 176,
+        "nodeType": "ImportDirective",
+        "src": "58:52:1",
+        "nodes": [],
+        "absolutePath": "node_modules/@openzeppelin/contracts/access/Ownable.sol",
+        "file": "@openzeppelin/contracts/access/Ownable.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 189,
+        "sourceUnit": 302,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 188,
+        "nodeType": "ContractDefinition",
+        "src": "112:153:1",
+        "nodes": [
+          {
+            "id": 187,
+            "nodeType": "FunctionDefinition",
+            "src": "143:120:1",
+            "nodes": [],
+            "body": {
+              "id": 186,
+              "nodeType": "Block",
+              "src": "220:43:1",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "expression": {
+                      "id": 183,
+                      "name": "userAddress",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 178,
+                      "src": "237:11:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "id": 184,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "memberLocation": "249:7:1",
+                    "memberName": "balance",
+                    "nodeType": "MemberAccess",
+                    "src": "237:19:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 182,
+                  "id": 185,
+                  "nodeType": "Return",
+                  "src": "230:26:1"
+                }
+              ]
+            },
+            "functionSelector": "efd8be62",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getNativeBalance",
+            "nameLocation": "152:16:1",
+            "parameters": {
+              "id": 179,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 178,
+                  "mutability": "mutable",
+                  "name": "userAddress",
+                  "nameLocation": "177:11:1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 187,
+                  "src": "169:19:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 177,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "169:7:1",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "168:21:1"
+            },
+            "returnParameters": {
+              "id": 182,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 181,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 187,
+                  "src": "211:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 180,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "211:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "210:9:1"
+            },
+            "scope": 188,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "BalanceOfUtil2",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          188
+        ],
+        "name": "BalanceOfUtil2",
+        "nameLocation": "121:14:1",
+        "scope": 189,
+        "usedErrors": [],
+        "usedEvents": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 1
+}

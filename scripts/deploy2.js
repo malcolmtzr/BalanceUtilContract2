@@ -7,7 +7,10 @@
 const hre = require("hardhat");
 
 async function main() {
-
+    const BalanceOfUtil2 = await hre.ethers.getContractFactory("BalanceOfUtil2");
+    const balanceOfUtil2 = await BalanceOfUtil2.deploy();
+    await balanceOfUtil2.waitForDeployment();
+    console.log(`Deployed at ${balanceOfUtil2.target}`)
 }
 
 // We recommend this pattern to be able to use async/await everywhere

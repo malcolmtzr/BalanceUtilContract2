@@ -1,0 +1,23 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/BalanceOfUtil2.sol": {
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.13;\n\ncontract BalanceOfUtil2 {\n\n    function getNativeBalance(address userAddress) public view returns (uint256) {\n        return userAddress.balance;\n    }\n}"
+    }
+  },
+  "settings": {
+    "optimizer": { "enabled": true, "runs": 200 },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata"
+        ],
+        "": ["ast"]
+      }
+    }
+  }
+}
